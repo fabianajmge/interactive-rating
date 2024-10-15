@@ -1,0 +1,16 @@
+  <section class="content">
+    <button mat-mini-fab class="circle">
+      <mat-icon class="icon-star">star</mat-icon>
+    </button>
+    <h1>How did we do?</h1>
+    <p class="description">Please let us know how we did with your support request. All feedback is appreciated
+      to help us improve our offering!</p>
+
+    <section class="grades">
+      <button *ngFor="let grade of grades" (click)="selectGrade(grade)" mat-flat-button>{{ grade }}</button>
+    </section>
+
+    <button class="submit" (click)="sendSelect()">Submit</button>
+  </section>
+
+  <router-outlet></router-outlet>

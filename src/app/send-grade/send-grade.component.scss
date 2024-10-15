@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Overpass:ital,wght@0,100..900;1,100..900&display=swap');
+
+p {
+  color: white;
+}
+
+.content {
+  background-color: #232A34;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+  padding: 1.5em;
+  border-radius: 15px;
+  font-family: 'Overpass';
+  text-align: center;
+}
+
+.text-select {
+  color: #FC7614;
+  background-color: #262E38;
+  border-radius: 22.5px;
+  font-size: 14px;
+  line-height: 22px;
+  padding: 0.5em 0;
+  border: 1px solid #262E38;
+  width: 60%;
+}
+
+.section-grade {
+  display: flex;
+  justify-content: center;
+}
+
+h1 {
+  color: white;
+  font-size: 24px;
+  margin: 0.5em;
+}
+
+.text-final {
+  color: #969FAD;
+  font-size: 14px;
+  line-height: 22px;
+}
+
+@media screen and (min-width: 769px) {
+  .content {
+    width: 43%;
+  }
+}

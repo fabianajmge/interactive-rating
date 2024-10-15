@@ -40,3 +40,62 @@ testem.log
 # System files
 .DS_Store
 Thumbs.db
+
+
+# Compiled output
+/dist
+/out-tsc
+/build
+
+# Dependency directories
+/node_modules
+/.angular
+
+# IDEs and editors
+/.idea
+/.vscode
+/.history
+/.sublime-project
+/.sublime-workspace
+
+# Angular environment settings
+/src/environments/environment*.ts
+
+# Log files
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Angular cache
+.angular/cache
+.angular/cache/**
+
+# Compiled JavaScript files
+*.js
+*.js.map
+
+# Compiled TypeScript files
+*.tsbuildinfo
+
+# Temporary folders
+/tmp
+/temp
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Package lock files (optional)
+/package-lock.json
+/pnpm-lock.yaml
+/yarn.lock
+
+# Coverage reports
+/coverage
+
+# Output from the ng-packagr tool
+/.ng_build
+
+# Karma test coverage reports
+/coverage/
+test-results/
