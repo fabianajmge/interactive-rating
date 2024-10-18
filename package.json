@@ -1,11 +1,11 @@
 {
-  "name": "interactive-rating-component",
+  "name": "interactive-rating",
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
-    "build": "ng build --base-href=/interactive-rating-component/",
-    "ghpages": "angular-cli-ghpages --dir=dist/interactive-rating-component",
+    "build": "ng build --base-href=/interactive-rating/",
+    "ghpages": "angular-cli-ghpages --dir=dist/interactive-rating",
     "deploy": "ng deploy",
     "watch": "ng build --watch --configuration development",
     "test": "ng test"
