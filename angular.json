@@ -17,7 +17,10 @@
         "build": {
           "builder": "@angular-devkit/build-angular:application",
           "options": {
-            "outputPath": "dist/interactive-rating",
+            "outputPath": {
+              "base": "dist/interactive-rating",
+               "browser": ""
+            },
             "index": "src/index.html",
             "browser": "src/main.ts",
             "polyfills": [
@@ -66,7 +69,7 @@
         "options": {
           "repo": "https://github.com/fabianajmge/interactive-rating-component.git",
           "branch": "gh-pages",
-          "dir": "dist/interactive-rating/browser"
+          "dir": "dist/interactive-rating"
           }
         },
         "serve": {
